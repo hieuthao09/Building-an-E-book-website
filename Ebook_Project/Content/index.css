@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Dancing+Script:wght@500&family=Kalam:wght@700&family=Lora:ital@1&family=Montserrat:ital,wght@0,300;0,800;1,600;1,700;1,800&family=Nunito+Sans:opsz@6..12&family=Rubik+Dirt&display=swap');
+
+.navbar a{
+    position: relative;
+    color: black;
+    text-decoration: none;
+    font-family: "Montserrat";
+}
+.navbar a::before{
+    content: '';
+    position: absolute;
+    top: 102%;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: red;
+    transition: .3s;
+}
+.navbar a:hover {
+    color: red;
+}
+.navbar a:hover::before{
+    width: 100%;
+}
+.box{
+    height: 30px;
+    display: flex;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 30px;
+    align-items: center;
+}
+.box:hover input{
+    width: 13rem;
+    padding:10px;
+    border-bottom: 1px solid rgb(52, 52, 52);
+    color: black;
+}
+.box input{
+    width: 0;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.8s;
+    background: transparent;
+    font-family: "Montserrat";
+
+}
+.box a .fas{
+    color: white;
+    font-size: 18px;
+}
+.box, .user {
+    display: flex;
+    align-items: center;
+}
+
+.menu-bottom span{
+    font-family: "Montserrat";
+}
+
+.font-Montserrat{
+    font-family: "Montserrat";
+
+}
+.swiper {
+    width: 100%;
+    height: 200px;
+  }
+  .swiper-slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #EEE;
+  }
+.swiper .swiper-button-prev,
+.swiper .swiper-button-next {
+  background: transparent;
+  width: 55px;
+  height: 55px;
+  line-height: 53px;
+  margin-top: -30px;
+  text-align: center;
+  border: 2px solid #d4d3d3;
+  border-radius: 55px;
+  opacity:0;
+  visibility:hidden;
+  transition:all .3s ease;
+}
+.swiper:hover .swiper-button-prev,
+.swiper:hover .swiper-button-next {
+  transform:translateX(0);
+  opacity:1;
+  visibility:visible;
+}
+
+@media (max-width: 767px) {
+  .swiper .swiper-button-prev,
+  .swiper .swiper-button-next {
+    display: none;
+  }
+}
+
+.swiper .swiper-button-prev {
+  left: 25px;
+  transform:translateX(50px);
+}
+
+.swiper .swiper-button-prev:before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f060";
+  font-size: 15px;
+  color: #d4d3d3;
+  font-style: normal;
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: 900;
+}
+
+.swiper .swiper-button-next {
+  right: 25px;
+  transform:translateX(-50px);
+}
+
+.swiper .swiper-button-next:before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f061";
+  font-size: 15px;
+  color: #d4d3d3;
+  font-style: normal;
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: 900;
+}
+.info-carousel button{
+    color: #FFFFFF;
+    display: inline-block;
+    background-color: black;
+    border-radius: 40px;
+    font-weight: 500px;
+    letter-spacing:1px;
+    text-decoration: none;
+}
+
+.info-carousel  button:hover::after{
+    content: ">";
+    visibility: hidden;
+}
+.info-carousel  button::before{
+    content: "";
+    margin-left: 10px;
+    visibility: hidden;
+}
+.info-carousel  button:hover{
+    color: black;
+    background-color: white;
+}
+.info-carousel  button:hover::after {
+    visibility: visible;
+    margin-left: 20px;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}   

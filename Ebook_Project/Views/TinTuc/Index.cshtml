@@ -1,0 +1,104 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+    IEnumerable<Ebook_Project.Models.TinTucDTO> lTT = ViewData.Model;
+}
+
+<main class="max-w-[13	00px] mx-auto py-4">
+    <div class="container mx-auto p-4 bg-gray-50 font-Montserrat ">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mr-10 ml-10 mt-20">
+            @foreach (var e in lTT)
+            {
+                <div class="max-w-sm mx-auto bg-white rounded-lg overflow-hidden hover:border border-gray-300 hover:shadow-md transition duration-300 pb-8">
+                    <article id="post-10410" class="post-10410 post type-post status-publish format-standard has-post-thumbnail hentry category-alphabooks category-news">
+                        <figure class="entry-thumb mt-2 px-4 pt-4">
+                            <div class="relative">
+                                <a class="post-post-thumbnail" href="https://ebook.comicola.com/mua-chung-ebook/" aria-hidden="true">
+                                    <img width="142" height="80" src="~/Image/@e.HinhAnh" class="w-full h-auto rounded" alt="Bổ sung tính năng Mua chung Ebook" decoding="async" fetchpriority="high">
+                                </a>
+                                <span class="post-type absolute top-0 left-0 p-2 rounded-full bg-white transition duration-300 ease-in-out hover:bg-red-500 ml-2 mt-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="-2.64 -2.64 29.28 29.28" fill="none" transform="rotate(90)">
+                                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                        <g id="SVGRepo_iconCarrier">
+                                            <path d="M14.579 14.579L11.6316 17.5264L10.7683 16.6631C10.3775 16.2723 10.1579 15.7422 10.1579 15.1894V13.1053L7.21052 10.158L5 9.42111L9.42111 5L10.158 7.21052L13.1053 10.1579L15.1894 10.1579C15.7422 10.1579 16.2722 10.3775 16.6631 10.7683L17.5264 11.6316L14.579 14.579ZM14.579 14.579L19 19" stroke="#464455" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </g>
+                                    </svg>
+                                </span>
+                            </div>
+
+                        </figure>
+                        <div class="entry-content mt-4">
+                            <div class="entry-category ml-6">
+                                <ul class="post-categories flex space-x-2">
+                                    <li class="flex-1/5 py-2 px-3 bg-gray-100 text-black text-sm hover:text-red-500">
+                                        <a href="https://ebook.comicola.com/category/alphabooks/" rel="category tag" class="hover:text-red-500">Alphabooks</a>
+                                    </li>
+                                    <li class="flex-1/5 py-2 px-3 bg-gray-100 text-black text-sm hover:text-red-500">
+                                        <a href="https://ebook.comicola.com/category/news/" rel="category tag" class="hover:text-red-500">News</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="entry-meta mt-4 ml-6">
+                                <h4 class="entry-title">
+                                    <a href="https://ebook.comicola.com/mua-chung-ebook/" class="text-xl font-semibold text-gray-800 hover:text-red-500 transition duration-300">@e.TieuDe</a>
+                                </h4>
+                            </div>
+                            <div class="meta-info text-xs text-gray-600 mt-2 ml-6 mr-5">
+                                <span class="author"><i class="icon-use"></i> <a href="https://ebook.comicola.com/author/nkduong/" title="Đăng bởi nkduong" rel="author"></a></span>
+                                <span class="entry-date">
+                                    <i class="far fa-clock"></i> <span class="screen-reader-text"></span>
+                                    <a href="https://ebook.comicola.com/mua-chung-ebook/" rel="bookmark" class="hover:text-black"><time class="entry-date published updated ml-1" datetime="2022-10-10T15:50:13+07:00">@e.Thoigian.ToString()</time></a>
+                                </span>
+                                <span class="comments-link m-1"><i class="far fa-comment"></i> <a href="https://ebook.comicola.com/mua-chung-ebook/#respond">0</a></span>
+                            </div>
+                            <div class="entry-description mt-4 text-gray-700 ml-6 mr-2 mt-2">
+                                <p class="text-[13px]">@e.MoTa</p>
+                                <div class="more mt-4">
+                                    <a href="https://ebook.comicola.com/mua-chung-ebook/" class="inline-block bg-black text-white px-4 py-2 rounded hover:bg-red-500 transition duration-500">
+                                        Đọc tiếp <i class="icon-arrow-right icons text-white"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+            }
+        </div>
+        <div class="flex items-center ml-10 space-x-4 mt-10 text-base text-black font-bold">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                    <li class="page-item hidden" id="previousPage">
+                        <a class="page-link !text-black hover:bg-red-500 hover:!text-white" href="#">Previous</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link !text-black hover:bg-red-500 hover:!text-white" href="#">1</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link !text-black hover:bg-red-500 hover:!text-white" href="#">2</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link !text-black hover:bg-red-500 hover:!text-white" href="#">3</a>
+                    </li>
+                    <li class="page-item" id="nextPage">
+                        <a class="page-link !text-black hover:bg-red-500 hover:!text-white" href="#">Next</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</main>
+<script>
+		function hasNextPage() {
+		  return true;
+		}
+		function togglePreviousButton() {
+		  const previousPageButton = document.getElementById('previousPage');
+		  previousPageButton.classList.toggle('hidden', !hasNextPage());
+		}
+		togglePreviousButton();
+		document.getElementById('nextPage').addEventListener('click', togglePreviousButton);
+</script>
+

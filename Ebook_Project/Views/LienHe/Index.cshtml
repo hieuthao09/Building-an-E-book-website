@@ -1,0 +1,156 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+
+<main class="max-w-[13	00px] mx-auto py-4">
+    <div>
+        <section id="main-container" class="container mx-auto p-4 font-Montserrat">
+            <div id="main-content" class="main-page clearfix">
+                <div id="main" class="site-main">
+                    <div class="flex flex-col items-center justify-center">
+                        <div class="widget widget-text-heading text-center mb-8">
+                            <div class="text-center font-Montserrat">
+                                <h1 class=" text-gray-300 text-[58px] hidden md:block ">Liên Hệ</h1>
+                                <span class="font-bold text-[26px]">Liên lạc với chúng tôi</span>
+                                <div class="w-20 h-1 bg-red-500 mx-auto my-2"></div>
+                            </div>
+                        </div>
+                        <div class="mx-auto w-4/5 mt-5">
+                            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                                <div class="widget-content feature-box">
+                                    <div class="inner flex items-center space-x-5 ">
+                                        <div class="fbox-icon">
+                                            <div class="icon-inner text-red-500 ">
+                                                <i class="fa fa-phone"></i>
+                                            </div>
+                                        </div>
+                                        <div class="fbox-content">
+                                            <h3 class="ourservice-heading">Điện thoại</h3>
+                                            <p class="description">+84388.888.262</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="widget-content feature-box">
+                                    <div class="inner flex items-center space-x-5">
+                                        <div class="fbox-icon">
+                                            <div class="icon-inner text-red-500 ">
+                                                <i class="fa fa-envelope-o"></i>
+                                            </div>
+                                        </div>
+                                        <div class="fbox-content">
+                                            <h3 class="ourservice-heading">Email</h3>
+                                            <p class="description">contact@comicola.com</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="widget-content feature-box">
+                                    <div class="inner flex items-center space-x-5">
+                                        <div class="fbox-icon">
+                                            <div class="icon-inner text-red-500">
+                                                <i class="fa fa-map-marker"></i>
+                                            </div>
+                                        </div>
+                                        <div class="fbox-content">
+                                            <h3 class="ourservice-heading">Địa chỉ</h3>
+                                            <p class="description">20 ngõ 7 Thái Hà, Đống Đa, Hà Nội</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-8 mx-auto" style="padding-top: 70px;">
+                            <div class="wpcf7" id="wpcf7-f6094-p6088-o1" lang="vi" dir="ltr">
+                                <form action="/lien-he/#wpcf7-f6094-p6088-o1" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
+                                    <div style="display: none;"> </div>
+                                    <p>
+                                        <label class="block text-gray-700 text-sm font-bold mb-2 text-[13px]">
+                                            Tên của bạn<br>
+                                            <span class="wpcf7-form-control-wrap" data-name="name">
+                                                <input type="text" name="name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required h-10 border-2 border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:border-black transition duration-500 mt-2 text-[12px]" aria-required="true" aria-invalid="false">
+                                            </span>
+                                        </label>
+                                    </p>
+                                    <p class="mt-4">
+                                        <label class="block text-gray-700 text-sm font-bold mb-2 text-[13px]">
+                                            Email của bạn<br>
+                                            <span class="wpcf7-form-control-wrap" data-name="email">
+                                                <input type="text" name="email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required h-10 border-2 border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:border-black transition duration-500 mt-2 text-[12px]" aria-required="true" aria-invalid="false">
+                                            </span>
+                                        </label>
+                                    </p>
+                                    <p class="mt-4">
+                                        <label class="block text-gray-700 text-sm font-bold mb-2 text-[13px]">
+                                            Tiêu đề:<br>
+                                            <span class="wpcf7-form-control-wrap" data-name="title">
+                                                <input type="text" name="title" value="" size="40" class="wpcf7-form-control h-10 border-2 border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:border-black transition duration-500 mt-2 text-[12px]" aria-required="true" aria-invalid="false">
+                                            </span>
+                                        </label>
+                                    </p>
+                                    <p class="mt-4">
+                                        <label class="block text-gray-700 text-sm font-bold mb-2 text-[13px]">
+                                            Nội dung (không bắt buộc)<br>
+                                            <span class="wpcf7-form-control-wrap" data-name="comment">
+                                                <textarea rows="8" id="comment" class="form-control w-full p-2 border border-gray-300 rounded mt-2 text-[12px] font-bold " name="comment" aria-required="true" spellcheck="false"></textarea>
+                                            </span>
+                                        </label>
+                                    </p>
+                                    <!-- Add other form fields similarly -->
+                                    <p>
+                                        <input type="submit" value="Gửi" class="bg-red-500 text-white rounded-md px-4 py-2 transition duration-500 hover:bg-black">
+                                        <span class="wpcf7-spinner"></span>
+                                    </p>
+                                    <div class="wpcf7-response-output" aria-hidden="true"></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</main>
+<script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var form = document.querySelector('.wpcf7-form');
+            var inputs = form.querySelectorAll('.wpcf7-form-control');
+
+            inputs.forEach(function (input) {
+                input.addEventListener('blur', function () {
+                    console.log('Validating input for:', input.name);
+                    validateInput(input);
+                });
+            });
+
+            function validateInput(input) {
+                var value = input.value.trim();
+                var parent = input.closest('.wpcf7-form-control-wrap');
+                var errorDiv = parent.querySelector('.text-red-500');
+
+                if (value === '') {
+                    if (!errorDiv) {
+                        showErrorMessage(parent, 'Mục này là bắt buộc.');
+                    }
+                } else {
+                    if (errorDiv) {
+                        hideErrorMessage(parent);
+                    }
+                }
+            }
+
+            function showErrorMessage(parent, message) {
+                var errorDiv = document.createElement('div');
+                errorDiv.className = 'text-red-500 text-[12px] mt-1';
+                errorDiv.textContent = message;
+                parent.appendChild(errorDiv);
+            }
+
+            function hideErrorMessage(parent) {
+                var errorDiv = parent.querySelector('.text-red-500');
+                if (errorDiv) {
+                    parent.removeChild(errorDiv);
+                }
+            }
+        });
+</script>

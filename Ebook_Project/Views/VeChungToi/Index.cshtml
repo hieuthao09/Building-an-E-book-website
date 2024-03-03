@@ -1,0 +1,76 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+
+<main class="max-w-[13	00px] mx-auto py-4">
+    <div>
+        <section id="main-container" class="container mx-auto p-4 font-Montserrat">
+            <div id="main-content" class="main-page clearfix">
+                <div id="main" class="site-main">
+                    <div class="flex justify-center">
+                        <div class="w-full sm:w-11/12 md:w-11/12 lg:w-9/12">
+                            <div class="widget widget-text-heading text-center mb-8">
+                                <div class="text-center font-Montserrat">
+                                    <h1 class=" text-gray-300 text-[58px] hidden md:block ">Về Chúng Tôi</h1>
+                                    <span class="font-bold text-[26px]"> Câu chuyện đằng sau sự thành lập dự án này </span>
+                                    <div class="w-20 h-1 bg-red-500 mx-auto my-2"></div>
+                                </div>
+                            </div>
+                            <div class="wpb_text_column wpb_content_element mb-6 text-[14px] leading-normal">
+                                <p>Chào các bạn. Tôi là Trần Ngọc Hiếu Thảo, Founder và CEO của công ty Cổ phần Comicola. Từ nhiều năm trước, Comicola đã là đơn vị <a href="https://vtv.vn/doi-song/ung-dung-doc-truyen-tranh-tra-phi-dau-tien-tai-viet-nam-20181101152413761.htm" target="_blank" rel="noopener" class="text-red-500 hover:text-red-500">đầu tiên ở Việt Nam sản xuất, xây dựng và phát hành nội dung truyện tranh online bản quyền</a>, và đạt được nhiều thành công đáng kể.</p>
+                                <p class="mt-2">Bên canh việc sản xuất truyện tranh, bản thân tôi cũng là một người đam mê đọc sách. Do đặc thù công việc và sự eo hẹp về thời gian, sách điện tử là giải pháp của tôi khi cần tiếp thu kiến thức. Và tôi nhận thấy, trải nghiệm đọc sách điện tử trên các thiết bị smartphone, cho dù tiện lợi thật đấy, nhưng không thể bằng được việc sử dụng thiết bị e-reader chuyên dụng.</p>
+                                <p class="mt-2">Là một con nghiện sử dụng e-reader, tôi tin tưởng, sử dụng e-reader là tương lai của sách điện tử. Và tôi quyết định làm một cuộc thử nghiệm.</p>
+                                <p class="mt-2">Website các bạn đang sử dụng là thành quả của tôi cùng các anh chị em trong công ty Comicola xây dựng trong thời gian giãn cách toàn quốc lần thứ hai (giữa năm 2021.) Bên cạnh các sản phẩm đã xuất bản của Comicola, chúng tôi cũng liên hệ với những người bạn tại các công ty sách khác, để có cơ hội tiếp cận bản quyền của các cuốn sách giấy đang phát hành trên thị trường.</p>
+                                <p class="mt-2">Khi làm sản phẩm này, tôi đã mất nhiều thời gian phải thuyết phục hội đồng quản trị, vì rất khó để các đơn vị đầu tư đồng ý cho công ty xây dựng một sản phẩm hướng tới thị trường quá nhỏ bé: “Những người dùng thiết bị e-reader tại Việt Nam.”</p>
+                                <p class="mt-2">Nhưng tôi có niềm tin, nếu 10 người dùng smartphone tại Việt Nam, chỉ khoảng 2-3 người đọc sách thường xuyên, thì 10 người dùng e-reader tại Việt Nam, cả 10 người đó đề là những người đam mê văn hóa đọc.</p>
+                                <p class="mt-2">Website này vẫn liên tục được cập nhật và nâng cấp thêm các tính năng mới.</p>
+                                <p class="mt-2">Rất mong nhận được sự ủng hộ của mọi người.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-center">
+                        <div class="w-full sm:w-11/12 md:w-11/12 lg:w-9/12">
+                            <div class="wpb_single_image widget wpb_content_element mx-auto mb-6 relative overflow-hidden group">
+                                <img src="https://ebook.comicola.com/wp-content/uploads/2021/10/duong_signature_min.jpg" alt="" class="w-64 h-auto ml-auto transition-transform transform-gpu group-hover:scale-90">
+                                <div class="absolute inset-0 group-hover:after bg-gradient-to-r from-transparent via-white to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</main>
+<script>
+        function toggleArrow() {
+            const arrowDown = document.getElementById('arrowDown');
+            const arrowUp = document.getElementById('arrowUp');
+            arrowDown.classList.toggle('hidden');
+            arrowUp.classList.toggle('hidden');
+        }
+</script>
+<script>
+		function toggleFilter() {
+			const filterButton = document.getElementById('filterButton');
+			const arrowDown = document.getElementById('arrowDown');
+			const arrowUp = document.getElementById('arrowUp');
+			const filterContainer = document.getElementById('filterContainer')
+			filterContainer.classList.toggle('hidden');
+			arrowDown.classList.toggle('hidden');
+			arrowUp.classList.toggle('hidden');
+		}
+</script>
+<script>
+		function hasNextPage() {
+		  return true;
+		}
+		function togglePreviousButton() {
+		  const previousPageButton = document.getElementById('previousPage');
+		  previousPageButton.classList.toggle('hidden', !hasNextPage());
+		}
+		togglePreviousButton();
+		document.getElementById('nextPage').addEventListener('click', togglePreviousButton);
+</script>
+

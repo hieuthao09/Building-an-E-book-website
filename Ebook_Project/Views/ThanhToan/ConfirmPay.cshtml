@@ -1,0 +1,88 @@
+﻿
+@{
+    Layout = null;
+    string status = ViewBag.mess;
+}
+
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700,900&display=swap" rel="stylesheet">
+</head>
+<style>
+    body {
+        text-align: center;
+        padding: 40px 0;
+        background: #EBF0F5;
+    }
+
+    h1 {
+        color: #00cc00;
+        font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+        font-weight: 900;
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    p {
+        color: #404F5E;
+        font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+        font-size: 20px;
+        margin: 0;
+    }
+
+    i {
+        color: #9ABC66;
+        font-size: 100px;
+        line-height: 200px;
+        margin-left: -15px;
+    }
+
+    .card {
+        background: white;
+        padding: 60px;
+        border-radius: 4px;
+        box-shadow: 0 2px 3px #C8D0D8;
+        display: inline-block;
+        margin: 0 auto;
+    }
+
+    button {
+        opacity: 0.8;
+        background-color: #fc7658;
+        color: white;
+        font-weight: bold;
+    }
+
+        button:hover {
+            opacity: 1;
+        }
+
+    .checkmark {
+        color: #00cc00;
+    }
+</style>
+<body>
+    <div class="card">
+        @if (status.Equals("success"))
+        {
+            <div style="border-radius:200px; height:200px; width:200px; background: #e6ffe6; margin:0 auto;">
+                <i class="checkmark">✓</i>
+            </div>
+            <h1>Gửi Hóa Đơn Thành Công</h1>
+            <p>Chúng tôi đã gửi tới email của bạn hóa đơn xác nhận và link download file.<br /> Xin vui lòng kiểm tra email của bạn để hoàn tất quá trình giao dịch.</p>
+        }
+        else
+        {
+            <div style="border-radius: 200px; height: 200px; width: 200px; background: #ffe6e6; margin: 0 auto;">
+                <i style="color: #cc0000;">✕</i>
+            </div>
+            <h1 style="color:#cc0000;">Gửi Hóa Đơn Thất Bại</h1>
+            <p>Có lỗi xảy ra trong quá trình giao dịch.<br />Xin lỗi vì sự cố này. Xin vui lòng thử lại sau ít phút.</p>
+        }
+
+        <a href="/Home/Index">
+            <button style="margin-top: 20px; border: 1px solid black; padding: 10px 20px; cursor:pointer;">TRỞ VỀ TRANG CHỦ</button>
+        </a>
+    </div>
+</body>
+</html>

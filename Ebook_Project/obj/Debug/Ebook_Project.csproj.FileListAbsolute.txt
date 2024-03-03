@@ -1,0 +1,184 @@
+C:\Users\HP\OneDrive - Ho Chi Minh city University of Food Industry\PTUDTM\PTPM_T5_A204_Ebook_project\Ebook_Project\bin\Ebook_Project.dll.config
+C:\Users\HP\OneDrive - Ho Chi Minh city University of Food Industry\PTUDTM\PTPM_T5_A204_Ebook_project\Ebook_Project\bin\Ebook_Project.dll
+C:\Users\HP\OneDrive - Ho Chi Minh city University of Food Industry\PTUDTM\PTPM_T5_A204_Ebook_project\Ebook_Project\bin\Ebook_Project.pdb
+C:\Users\HP\OneDrive - Ho Chi Minh city University of Food Industry\PTUDTM\PTPM_T5_A204_Ebook_project\Ebook_Project\bin\Antlr3.Runtime.dll
+C:\Users\HP\OneDrive - Ho Chi Minh city University of Food Industry\PTUDTM\PTPM_T5_A204_Ebook_project\Ebook_Project\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HP\OneDrive - Ho Chi Minh city University of Food Industry\PTUDTM\PTPM_T5_A204_Ebook_project\Ebook_Project\bin\Newtonsoft.Json.dll
+C:\Users\HP\OneDrive - Ho Chi Minh city University of Food Industry\PTUDTM\PTPM_T5_A204_Ebook_project\Ebook_Project\bin\System.Web.Helpers.dll
+C:\Users\HP\OneDrive - Ho Chi Minh city University of Food Industry\PTUDTM\PTPM_T5_A204_Ebook_project\Ebook_Project\bin\System.Web.Mvc.dll
+C:\Users\HP\OneDrive - Ho Chi Minh city University of Food Industry\PTUDTM\PTPM_T5_A204_Ebook_project\Ebook_Project\bin\System.Web.Optimization.dll
+C:\Users\HP\OneDrive - Ho Chi Minh city University of Food Industry\PTUDTM\PTPM_T5_A204_Ebook_project\Ebook_Project\bin\System.Web.Razor.dll
+C:\Users\HP\OneDrive - Ho Chi Minh city University of Food Industry\PTUDTM\PTPM_T5_A204_Ebook_project\Ebook_Project\bin\System.Web.WebPages.Deployment.dll
+C:\Users\HP\OneDrive - Ho Chi Minh city University of Food Industry\PTUDTM\PTPM_T5_A204_Ebook_project\Ebook_Project\bin\System.Web.WebPages.dll
+C:\Users\HP\OneDrive - Ho Chi Minh city University of Food Industry\PTUDTM\PTPM_T5_A204_Ebook_project\Ebook_Project\bin\System.Web.WebPages.Razor.dll
+C:\Users\HP\OneDrive - Ho Chi Minh city University of Food Industry\PTUDTM\PTPM_T5_A204_Ebook_project\Ebook_Project\bin\WebGrease.dll
+C:\Users\HP\OneDrive - Ho Chi Minh city University of Food Industry\PTUDTM\PTPM_T5_A204_Ebook_project\Ebook_Project\bin\System.Web.Helpers.xml
+C:\Users\HP\OneDrive - Ho Chi Minh city University of Food Industry\PTUDTM\PTPM_T5_A204_Ebook_project\Ebook_Project\bin\System.Web.Mvc.xml
+C:\Users\HP\OneDrive - Ho Chi Minh city University of Food Industry\PTUDTM\PTPM_T5_A204_Ebook_project\Ebook_Project\bin\System.Web.Optimization.xml
+C:\Users\HP\OneDrive - Ho Chi Minh city University of Food Industry\PTUDTM\PTPM_T5_A204_Ebook_project\Ebook_Project\bin\System.Web.Razor.xml
+C:\Users\HP\OneDrive - Ho Chi Minh city University of Food Industry\PTUDTM\PTPM_T5_A204_Ebook_project\Ebook_Project\bin\System.Web.WebPages.xml
+C:\Users\HP\OneDrive - Ho Chi Minh city University of Food Industry\PTUDTM\PTPM_T5_A204_Ebook_project\Ebook_Project\bin\System.Web.WebPages.Deployment.xml
+C:\Users\HP\OneDrive - Ho Chi Minh city University of Food Industry\PTUDTM\PTPM_T5_A204_Ebook_project\Ebook_Project\bin\System.Web.WebPages.Razor.xml
+C:\Users\HP\OneDrive - Ho Chi Minh city University of Food Industry\PTUDTM\PTPM_T5_A204_Ebook_project\Ebook_Project\bin\Newtonsoft.Json.xml
+C:\Users\HP\OneDrive - Ho Chi Minh city University of Food Industry\PTUDTM\PTPM_T5_A204_Ebook_project\Ebook_Project\bin\Antlr3.Runtime.pdb
+C:\Users\HP\OneDrive - Ho Chi Minh city University of Food Industry\PTUDTM\PTPM_T5_A204_Ebook_project\Ebook_Project\obj\Debug\Ebook_Project.csproj.AssemblyReference.cache
+C:\Users\HP\OneDrive - Ho Chi Minh city University of Food Industry\PTUDTM\PTPM_T5_A204_Ebook_project\Ebook_Project\obj\Debug\Ebook_Project.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive - Ho Chi Minh city University of Food Industry\PTUDTM\PTPM_T5_A204_Ebook_project\Ebook_Project\obj\Debug\Ebook_Project.csproj.CopyComplete
+C:\Users\HP\OneDrive - Ho Chi Minh city University of Food Industry\PTUDTM\PTPM_T5_A204_Ebook_project\Ebook_Project\obj\Debug\Ebook_Project.dll
+C:\Users\HP\OneDrive - Ho Chi Minh city University of Food Industry\PTUDTM\PTPM_T5_A204_Ebook_project\Ebook_Project\obj\Debug\Ebook_Project.pdb
+P:\HUFI\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\Ebook_Project.dll.config
+P:\HUFI\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\Ebook_Project.dll
+P:\HUFI\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\Ebook_Project.pdb
+P:\HUFI\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\Antlr3.Runtime.dll
+P:\HUFI\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\Microsoft.Web.Infrastructure.dll
+P:\HUFI\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\Newtonsoft.Json.dll
+P:\HUFI\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\System.Web.Helpers.dll
+P:\HUFI\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\System.Web.Mvc.dll
+P:\HUFI\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\System.Web.Optimization.dll
+P:\HUFI\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\System.Web.Razor.dll
+P:\HUFI\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\System.Web.WebPages.Deployment.dll
+P:\HUFI\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\System.Web.WebPages.dll
+P:\HUFI\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\System.Web.WebPages.Razor.dll
+P:\HUFI\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\WebGrease.dll
+P:\HUFI\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\System.Web.Helpers.xml
+P:\HUFI\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\System.Web.Mvc.xml
+P:\HUFI\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\System.Web.Optimization.xml
+P:\HUFI\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\System.Web.Razor.xml
+P:\HUFI\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\System.Web.WebPages.xml
+P:\HUFI\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\System.Web.WebPages.Deployment.xml
+P:\HUFI\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\System.Web.WebPages.Razor.xml
+P:\HUFI\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\Newtonsoft.Json.xml
+P:\HUFI\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\Antlr3.Runtime.pdb
+P:\HUFI\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\obj\Debug\Ebook_Project.csproj.AssemblyReference.cache
+P:\HUFI\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\obj\Debug\Ebook_Project.csproj.CoreCompileInputs.cache
+P:\HUFI\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\obj\Debug\Ebook_Project.csproj.CopyComplete
+P:\HUFI\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\obj\Debug\Ebook_Project.dll
+P:\HUFI\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\obj\Debug\Ebook_Project.pdb
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\Ebook_Project.dll.config
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\Ebook_Project.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\Ebook_Project.pdb
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\Antlr3.Runtime.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\Google.Apis.Core.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\Google.Apis.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\Google.Apis.PlatformServices.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\Microsoft.Owin.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\Microsoft.Owin.Security.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\Microsoft.Owin.Security.Google.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\Microsoft.Web.Infrastructure.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\Newtonsoft.Json.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\Owin.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\System.CodeDom.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\System.Web.Helpers.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\System.Web.Mvc.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\System.Web.Optimization.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\System.Web.Razor.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\System.Web.WebPages.Deployment.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\System.Web.WebPages.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\System.Web.WebPages.Razor.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\WebGrease.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\Google.Apis.pdb
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\Google.Apis.xml
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\Google.Apis.Core.pdb
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\Google.Apis.Core.xml
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\Microsoft.Owin.xml
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\Microsoft.Owin.Security.xml
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\Microsoft.Owin.Security.Google.xml
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\Newtonsoft.Json.xml
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\System.CodeDom.xml
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\System.Web.Helpers.xml
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\System.Web.Mvc.xml
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\System.Web.Optimization.xml
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\System.Web.Razor.xml
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\System.Web.WebPages.xml
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\System.Web.WebPages.Deployment.xml
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\System.Web.WebPages.Razor.xml
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\Antlr3.Runtime.pdb
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\obj\Debug\Ebook_Project.csproj.AssemblyReference.cache
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\obj\Debug\Ebook_Project.csproj.CoreCompileInputs.cache
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\obj\Debug\Ebook_Project.csproj.CopyComplete
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\obj\Debug\Ebook_Project.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\obj\Debug\Ebook_Project.pdb
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\System.Buffers.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\System.Threading.Tasks.Extensions.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\System.Buffers.xml
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\System.Threading.Tasks.Extensions.xml
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\RestSharp.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\System.Memory.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\System.Numerics.Vectors.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\System.Text.Encodings.Web.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\System.Text.Json.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\System.ValueTuple.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\RestSharp.xml
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\System.Memory.xml
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\System.Numerics.Vectors.xml
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\System.Text.Encodings.Web.xml
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\System.Text.Json.xml
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\FE\Ebook_Project\bin\System.ValueTuple.xml
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\Ebook_Project.dll.config
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\Ebook_Project.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\Ebook_Project.pdb
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\Antlr3.Runtime.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\Google.Apis.Core.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\Google.Apis.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\Google.Apis.PlatformServices.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\Microsoft.Owin.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\Microsoft.Owin.Security.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\Microsoft.Owin.Security.Google.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\Microsoft.Web.Infrastructure.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\Newtonsoft.Json.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\Owin.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\RestSharp.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\System.Buffers.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\System.CodeDom.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\System.Memory.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\System.Numerics.Vectors.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\System.Text.Encodings.Web.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\System.Text.Json.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\System.Threading.Tasks.Extensions.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\System.ValueTuple.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\System.Web.Helpers.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\System.Web.Mvc.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\System.Web.Optimization.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\System.Web.Razor.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\System.Web.WebPages.Deployment.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\System.Web.WebPages.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\System.Web.WebPages.Razor.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\WebGrease.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\Google.Apis.pdb
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\Google.Apis.xml
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\Google.Apis.Core.pdb
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\Google.Apis.Core.xml
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\Microsoft.Owin.xml
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\Microsoft.Owin.Security.xml
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\Microsoft.Owin.Security.Google.xml
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\Newtonsoft.Json.xml
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\RestSharp.xml
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\System.Buffers.xml
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\System.CodeDom.xml
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\System.Memory.xml
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\System.Numerics.Vectors.xml
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\System.Text.Encodings.Web.xml
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\System.Text.Json.xml
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\System.Threading.Tasks.Extensions.xml
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\System.ValueTuple.xml
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\System.Web.Helpers.xml
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\System.Web.Mvc.xml
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\System.Web.Optimization.xml
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\System.Web.Razor.xml
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\System.Web.WebPages.xml
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\System.Web.WebPages.Deployment.xml
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\System.Web.WebPages.Razor.xml
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\bin\Antlr3.Runtime.pdb
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\obj\Debug\Ebook_Project.csproj.AssemblyReference.cache
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\obj\Debug\Ebook_Project.csproj.CoreCompileInputs.cache
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\obj\Debug\Ebook_Project.csproj.CopyComplete
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\obj\Debug\Ebook_Project.dll
+D:\DUCPHAT\HUIT\Năm_4\PhatTrienUngDungThongMinh\DoAn\Final\Ebook_Project\obj\Debug\Ebook_Project.pdb

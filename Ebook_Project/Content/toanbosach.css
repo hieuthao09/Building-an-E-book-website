@@ -1,0 +1,8 @@
+.product-top-sidebar .product-top-button-wrapper {
+    @apply shadow-md relative py-10 bg-white;
+    z-index: 10;
+}
+
+.container {
+    @apply mx-auto;
+}

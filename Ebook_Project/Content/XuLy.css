@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    min-height: 100vh;
+}
+a,button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 30px;
+    color: red;
+    text-decoration: none;
+    font-weight: 700;
+    margin-right: 100px;
+    margin-left: 40px;
+}
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-grow: 10;
+}
+.navbar a{
+    position: relative;
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+    font-family: "Montserrat";
+}
+.navbar a::before{
+    content: '';
+    position: absolute;
+    top: 220%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: red;
+    transition: .3s;
+}
+.navbar a:hover {
+    color: red;
+}
+.navbar a:hover::before{
+    width: 100%;
+}
+.box{
+    height: 30px;
+    display: flex;
+    cursor: pointer;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 30px;
+    align-items: center;
+    margin-right: 200px;
+}
+.box:hover input{
+    width:190px;
+    padding: 10px;
+    border-bottom: 1px solid rgb(52, 52, 52);
+    color: white;
+}
+.box input{
+    width: 0;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.8s;
+    background: transparent;
+}
+.box a .fas{
+    color: white;
+    font-size: 18px;
+}
+.box, .user {
+    display: flex;
+    align-items: center;
+}
+
+.user {
+    height: 30px;
+    display: flex;
+    cursor: pointer;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 30px;
+    align-items: center;
+    margin-left: 10px;
+}
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.content .textbox{
+    position: relative;
+    max-width: 600px;
+    margin-top: 350px;
+    margin-left: 150px;
+
+}
+.content .textbox h4{
+    color: white;
+    font-size: 44px;
+    line-height: 1.4em;
+    white-space: nowrap;
+    font-family: "Open Sans";
+}
+.content .textbox a{
+    color: #FFFFFF;
+    display: inline-block;
+    margin-top: 20px;
+    padding : 8px 20px;
+    background-color: black;
+    border-radius: 40px;
+    font-weight: 500px;
+    letter-spacing:1px;
+    text-decoration: none;
+}
+.content .textbox a::after{
+    content: ">";
+    margin-left: 10px;
+    visibility: hidden;
+}
+.content .textbox a:hover{
+    color: black;
+    background-color: white;
+}
+.content .textbox a:hover::after {
+    visibility: visible;
+    margin-left: 20px;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}   
+.content-img{
+    width: 100%;
+    min-height: 100vh;
+    background-image:url("./Image/holy-bible-with-rays-light-coming-out-ai-generative_123827-23908.png");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.content-title {
+    margin-top: 30px;
+}
+.content-title h1 {
+    margin-bottom: 0;
+    font-size: 58px;
+    display: block;
+    font-weight: 100;
+    color: #e5e5e5;
+    margin: 0;
+    line-height: 61px;
+    text-transform: none;
+    padding: 0;
+    text-align: center;
+}
+
+.subtitle{
+    display: block;
+    font-size: 26px;
+    color: #232323;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+}
+.description{
+    color: #000;
+    font-weight: 500;
+    margin: 50px auto 0;
+    max-width: 940px;
+}
+.btn{
+    display: inline-block;
+    margin-top: 20px;
+    padding : 10px 30px;
+    background-color: #FD6E4F;
+    font-weight: 500px;
+    letter-spacing:1px;
+    text-decoration: none;
+    text-align: center;
+    
+}
+.btn a{
+    color: white;
+    font-family: "Montserrat";
+    font-size: 12px;
+}
+.btn:hover{
+    background-color: #000;
+}
+.container{
+    text-align: center;
+}

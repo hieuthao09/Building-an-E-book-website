@@ -1,0 +1,156 @@
+﻿
+@{
+    ViewBag.Title = "Profile";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+    Ebook_Project.Models.Account kh = ViewData.Model;
+    IEnumerable<Ebook_Project.Models.SachDTO> lSachOwner = ViewBag.SachOwner;
+}
+<main class="max-w-[13	00px] mx-auto py-4">
+    <!--PHẦN CHÍNH-->
+    <section id="main-container" class="container inner font-Montserrat">
+        <div id="main-content" class="main-page clearfix">
+            <div id="main" class="site-main">
+                <div class="grid grid-cols-12">
+                    <div class="col-span-12">
+                        <div class="p-4">
+                            <!--THANH NAVBAR VÀ CONTENT-->
+                            <div class="woocommerce" style="display: flex; align-items: flex-start;">
+                                <!--CONTENT-->
+                                <nav class="woocommerce-MyAccount-navigation" style="width: 234px;">
+                                    <ul class="">
+                                        <li id="account-link" class="woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--dashboard">
+                                            <a href="#" onclick="showContent('account-content', 'account-link')" class="block py-2 px-4 border border-gray-200 text-black hover:text-white hover:bg-red-500 uppercase font-bold bg-red-500 text-white" style="height: 47.6px; display: flex; align-items: center;">
+                                                <ion-icon name="person-outline" class="text-[20px] mr-2 md hydrated" role="img"></ion-icon>
+                                                Tài khoản
+                                            </a>
+                                        </li>
+                                        <li id="orders-link" class="woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--orders">
+                                            <a href="#" onclick="showContent('orders-content', 'orders-link')" class="block py-2 px-4 border border-gray-200 text-black hover:text-white hover:bg-red-500 uppercase font-bold" style="height: 47.6px; display: flex; align-items: center;">
+                                                <ion-icon name="cart-outline" class="text-[20px] mr-2 md hydrated" role="img"></ion-icon>
+                                                Sách đã mua
+                                            </a>
+                                        </li>
+                                        <li class="woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--customer-logout">
+                                            <a href="/Login/Logout" class="block py-2 px-4 border border-gray-200 bg-white-50 text-black hover:text-white hover:bg-red-500 uppercase font-bold" style="height: 47.6px; display: flex; align-items: center;">
+                                                <ion-icon name="log-out-outline" class="text-[20px] mr-2 md hydrated" role="img"></ion-icon>
+                                                Đăng xuất
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                                <!--CONTENT-->  <!--PHẦN JAVASCRIPT XỬ LÝ CONTENT Ở DƯỚI CÙNG-->
+                                <div id="account-content" class="woocommerce-MyAccount-content" style="flex: 1 1 0%; margin-left: 40px; display: flex;">
+                                    <div class="  border-red-500 border-solid text-black px-4 py-3 rounded relative w-full h-full" role="alert">
+                                        <form action="" method="post">
+                                            <div class="form-group mb-4">
+                                                <label for="account_first_name" class="block text-sm font-medium text-gray-700">Họ tên <span class="text-red-500">*</span></label>
+                                                <input type="text" class="input-text form-control mt-1 block w-full" name="account_first_name" id="account_first_name" autocomplete="given-name" value="@kh.NameUser">
+                                            </div>
+                                            <div class="form-group mb-4">
+                                                <label for="account_email" class="block text-sm font-medium text-gray-700">Địa chỉ Email</label>
+                                                <input type="email" class="input-text form-control mt-1 block w-full" name="account_email" id="account_email" autocomplete="email" readonly value="@kh.Email">
+                                            </div>
+                                            <legend class="text-[21px] font-bold text-gray-700">Đổi mật khẩu</legend>
+                                            <div class="form-group mb-4">
+                                                <label for="password_current" class="block text-sm font-medium text-gray-700">Mật khẩu hiện tại (để trống để giữ nguyên)</label>
+                                                <input type="password" class="input-text form-control mt-1 block w-full" name="password_current" id="password_current" autocomplete="off">
+                                            </div>
+                                            <div class="form-group mb-4">
+                                                <label for="password_1" class="block text-sm font-medium text-gray-700">Mật khẩu mới (để trống để giữ nguyên)</label>
+                                                <input type="password" class="input-text form-control mt-1 block w-full" name="password_1" id="password_1" autocomplete="off">
+                                            </div>
+                                            <div class="form-group mb-4">
+                                                <label for="password_2" class="block text-sm font-medium text-gray-700">Xác nhận mật khẩu</label>
+                                                <input type="password" class="input-text form-control mt-1 block w-full" name="password_2" id="password_2" autocomplete="off">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="hidden" id="save-account-details-nonce" name="save-account-details-nonce" value="ec2c078f82">
+                                                <input type="hidden" name="_wp_http_referer" value="/account/edit-account/">
+                                                <button type="submit" class="bg-red-500 text-white py-2 px-4  font-bold uppercase text-sm" style="width: 130px; height: 40px;" name="save_account_details" value="Lưu">Lưu</button>
+                                                <input type="hidden" name="action" value="save_account_details">
+                                            </div>
+                                        </form>
+
+                                    </div>
+                                </div>
+                                <div id="orders-content" class="woocommerce-MyAccount-content" style="flex: 1 1 0%; margin-left: 40px; display: none;">
+                                    <div class=" bg-gray-100 border-t-2 border-red-500 border-solid text-black px-4 py-3 rounded relative w-full" role="alert">
+                                        @if (lSachOwner == null || lSachOwner.Count() == 0)
+                                        {
+
+
+                                            <div class="flex items-center" style="display: flex;justify-content: space-between">
+                                                <ion-icon name="checkmark-circle" class="text-red-500 md hydrated" role="img"></ion-icon>
+                                                <p class="ml-2 text-[12px]">Bạn chưa sở hữu cuốn sách nào.</p>
+                                                <a href="/ToanBoSach/Index">
+                                                    <button type="submit" name="add-to-cart" value="4964" class=" ml-auto flex items-center border border-red-500 text-white bg-red-500 py-2 px-4 rounded-none transition duration-300 hover:bg-black font-bold uppercase text-[12px]">
+                                                        MUA SÁCH NGAY
+                                                    </button>
+                                                </a>
+                                            </div>
+                                        }
+                                        else
+                                        {
+                                            foreach (var e in lSachOwner)
+                                            {
+                                                <div class="cart_item clearfix flex items-center  border-gray-300 p-4 bg-gray-50">
+
+                                                    <div class="product-thumbnail">
+
+                                                        <a href="#">
+                                                            <img loading="lazy" decoding="async" width="370" height="475" src="~/Image/Book/@e.FILEHINH" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail w-24 h-32" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="product-name ml-5 font-bold" style="width: 60%;" data-title="Product">
+                                                        <a href="/ToanBoSach/ChiTiet?SachId=@e.MASACH">@e.TENSACH</a>
+                                                    </div>
+
+                                                    <div class="product-price ml-20" data-title="Ebook">
+                                                        <a target="_blank" href="/Login/DownOwnerEBook?fileName=@e.TENFILESACH">
+                                                            <span class="flex align-items-center woocommerce-Price-amount amount">
+                                                                <svg class="w-6 h-6 text-gray-800 dark:text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                                                    <path d="M14.707 7.793a1 1 0 0 0-1.414 0L11 10.086V1.5a1 1 0 0 0-2 0v8.586L6.707 7.793a1 1 0 1 0-1.414 1.414l4 4a1 1 0 0 0 1.416 0l4-4a1 1 0 0 0-.002-1.414Z" />
+                                                                    <path d="M18 12h-2.55l-2.975 2.975a3.5 3.5 0 0 1-4.95 0L4.55 12H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2Zm-3 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z" />
+                                                                </svg>
+                                                                <span class="ml-2"> @e.TENFILESACH</span>
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            }
+                                        }
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!--PHẦN XỬ LÝ NAV VÀ CONTENT-->
+<script>
+
+    document.getElementById('account-content').style.display = 'flex';
+    document.getElementById('account-link').querySelector('a').classList.add('bg-red-500', 'text-white');
+
+    function showContent(contentId, activeLinkId) {
+
+        document.querySelectorAll('.woocommerce-MyAccount-content').forEach(function (element) {
+            element.style.display = 'none';
+        });
+
+
+        document.querySelectorAll('.woocommerce-MyAccount-navigation-link a').forEach(function (element) {
+            element.classList.remove('bg-red-500', 'text-white');
+        });
+
+
+        document.getElementById(contentId).style.display = 'flex';
+        document.getElementById(activeLinkId).querySelector('a').classList.add('bg-red-500', 'text-white');
+    }
+</script>

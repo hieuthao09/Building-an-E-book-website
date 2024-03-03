@@ -1,0 +1,132 @@
+﻿
+@{
+    ViewBag.Title = "GioHang";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+
+    IEnumerable<Ebook_Project.Models.SachDTO> lSach = ViewData.Model;
+    long tong = ViewBag.tong;
+}
+
+<main class="max-w-[13	00px] mx-auto py-4">
+    <div>
+        <section id="tbay-breadcrumb" class="bg-blue-50 py-3 hidden md:flex">
+            <div class="container mx-auto">
+                <div class="flex items-center justify-center h-full">
+                    <ol class="flex breadcrumb p-0 m-0">
+                        <li><a href="TrangChu2.html" class="text-gray-700 hover:text-red-500 font-Montserrat hover:no-underline text-sm">Trang chủ</a></li>
+                        <li class="mx-2">
+                            <span class="content-slash px-2 text-gray-300 text-sm">/</span>
+                        </li>
+                        <li class="font-bold text-gray-700 font-Montserrat text-sm self-center">Giỏ hàng</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+        <section id="main-container" class="container inner mx-auto mt-5 border-solid text-black px-4 py-3 rounded relative w-[1270px] mt-70 font-Montserrat">
+            <h1 class="page-title font-bold text-[28px] text-center">Giỏ hàng</h1>
+            <div id="main-content" class="main-page clearfix">
+                <div id="main" class="site-main">
+                    <div class="woocommerce">
+                        <div class="woocommerce-notices-wrapper"></div>
+                        <form class="woocommerce-cart-form" action="https://ebook.comicola.com/cart/" method="post">
+
+                            <div class="wc_coupon_message_wrap p-4">
+                                <div class="no_wc_coupon_message"></div>
+                            </div>
+                            <div>
+                                <div class="shop_table shop_table_responsive cart woocommerce-cart-form__contents">
+                                    @if (lSach != null && lSach.Count() > 0)
+                                    {
+                                        foreach (var e in lSach)
+                                        {
+                                            <div class="cart_item clearfix flex items-center  border-gray-300 p-4 bg-gray-50">
+
+                                                <div class="product-thumbnail">
+
+                                                    <a href="#">
+                                                        <img loading="lazy" decoding="async" width="370" height="475" src="~/Image/Book/@e.FILEHINH" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail w-24 h-32" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="product-name ml-5 font-bold" style="width: 60%;" data-title="Product">
+                                                    <a href="/ToanBoSach/ChiTiet?SachId=@e.MASACH">@e.TENSACH</a>
+                                                </div>
+
+                                                <div class="product-price ml-20" data-title="Price">
+                                                    <span class="woocommerce-Price-amount amount"><bdi>@e.GIABAN.ToString("00,##")<span class="woocommerce-Price-currencySymbol">₫</span></bdi></span>
+                                                </div>
+
+                                                <div class="product-quantity ml-20 text-right" data-title="Quantity">
+                                                    1 <input type="hidden" name="cart[02052c0f4599c2aa6bead905338f1214][qty]" value="1">
+                                                </div>
+                                                <div class="product-remove ml-auto">
+                                                    <div class=" bg-white-0 flex items-center justify-center hover:bg-red-500 " style="width: 30px; height: 30px;">
+                                                        <a href="/ThanhToan/RemoveItemFromCart?SachId=@e.MASACH" class="remove text-[25px] text-black hover:text-white" aria-label="Xóa mục này" data-product_id="4964" data-product_sku="profit-first">×</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        }
+
+
+
+                                    }
+                                    else
+                                    {
+                                        <div class="w-100 text-center cart-bottom actions px-4 py-2 mt-5">
+                                            <p>Giỏ hàng rỗng</p>
+                                        </div>
+                                    }
+
+
+                                    <div class="cart-bottom actions flex items-center justify-between px-4 py-2 mt-5">
+
+                   
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t-2 mt-5 p-4"></div>
+            <div class="tb-cart-total">
+                <div class="cart_totals bg-gray-50  ml-4 p-4 rounded" style="width: 520px; margin-left: 700px;">
+                    <h2 class="text-xl font-bold">Tổng giỏ hàng</h2>
+                    <table class="shop_table shop_table_responsive w-full mt-4">
+                        <tbody>
+                            <tr class="cart-subtotal">
+                                <th class="py-2 font-normal">Tạm tính</th>
+                                <td data-title="Tạm tính" class="py-2 font-bold text-right">@tong.ToString("00,##") ₫</td>
+                            </tr>
+
+                            <tr class="order-total">
+                                <th class="py-2 font-normal">Tổng</th>
+                                <td data-title="Tổng" class="py-2 font-bold text-right">@tong.ToString("00,##") ₫</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="wc-proceed-to-checkout mt-4">
+                        <form action="/ThanhToan/ConfirmPay" method="get">
+                            @if (lSach != null && lSach.Count() > 0)
+                            {
+
+
+                                <button type="submit" name="" value="4964" class="flex items-center justify-center font-bold border  border-red-500 text-white bg-red-500 py-2 px-4 rounded-none transition duration-300 hover:bg-black text-[12px]" style="width: 250px; height: 36.8px;">
+                                    <i class="gg-lock mr-2 text-[12px]"></i> TIẾN HÀNH THANH TOÁN
+                                </button>
+
+                            }
+                            else
+                            {
+                                <button disabled type="submit" name="" value="4964" class="flex items-center justify-center font-bold border  border-gray-500 text-white bg-gray-300 py-2 px-4 rounded-none transition duration-300 text-[12px]" style="width: 250px; height: 36.8px;">
+                                    <i class="gg-lock mr-2 text-[12px]"></i> TIẾN HÀNH THANH TOÁN
+                                </button>
+                            }
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+</main>

@@ -1,0 +1,383 @@
+﻿
+@{
+    ViewBag.Title = "ChiTiet";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+    Ebook_Project.Models.SachDTO Ebook = ViewData.Model;
+}
+
+<main class="max-w-[13	00px] mx-auto py-4 font-Montserrat">
+    <section id="tbay-breadcrumb" class="bg-blue-50 py-3 hidden md:flex">
+        <div class="container mx-auto">
+            <div class="flex items-center justify-center h-full">
+                <ol class="flex breadcrumb p-0 m-0">
+                    <li><a href="TrangChu2.html" class="text-gray-700 hover:text-red-500 font-Montserrat hover:no-underline text-sm">Trang chủ</a></li>
+                    <li class="mx-2">
+                        <span class="content-slash px-2 text-gray-300 text-sm">/</span>
+                    </li>
+                    <li class="font-bold text-gray-700 font-Montserrat text-sm self-center hover:text-red-500">Tiểu Thuyết</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+    <!-- Phần này là xử lý của sản phẩm  -->
+    <div id="product-4964" class="style-vertical form-cart-popup post-4964 product type-product status-publish has-post-thumbnail product-cat-tai-chinh pa-format-epub pa-format-mobi pa-writer-mike-michalowicz yith-product-brand-alphabooks instock downloadable virtual sold-individually purchasable product-type-simple mt-5 ml-10 mr-40">
+        <div class="grid grid-cols-1 lg:grid-cols-2">
+            <!-- Phần này là xử lý hình của sản phẩm  -->
+            <div class="col-span-1 lg:col-span-1" style="display: flex; justify-content: right;">
+                <div class="xl:p-0" style="width:340px; padding-right: 50px; margin-bottom: 40px;">
+                    <img src="~/Image/Book/@Ebook.FILEHINH" class="shadow" alt=""/>
+                </div>
+            </div>
+    <!-- Phần này là xử lý thông tin của sản phẩm  -->
+    <div class="col-span-1 lg:col-span-1">
+        <div class="summary entry-summary ml-4">
+            <h1 class="product-title entry-title text-2xl lg:text-3xl font-Montserrat">@Ebook.TENSACH</h1>
+            <div class="flex items-center space-x-3 mt-1">
+                <div class="star-rating text-xs">
+                    <i class="fas fa-star text-gray-300 transition duration-300 ease-in-out transform hover:scale-110" aria-hidden="true"></i>
+                    <i class="fas fa-star text-gray-300 transition duration-300 ease-in-out transform hover:scale-110" aria-hidden="true"></i>
+                    <i class="fas fa-star text-gray-300 transition duration-300 ease-in-out transform hover:scale-110" aria-hidden="true"></i>
+                    <i class="fas fa-star text-gray-300 transition duration-300 ease-in-out transform hover:scale-110" aria-hidden="true"></i>
+                    <i class="fas fa-star text-gray-300 transition duration-300 ease-in-out transform hover:scale-110" aria-hidden="true"></i>
+                </div>
+                <a href="#reviews" class="woocommerce-review-link text-sm hover:text-red-500 mr-2">(0 lượt đánh giá sản phẩm)</a>
+                <span class="border-r h-4"></span>
+                <span class="rate-sold text-sm ml-2"><span class="count">51</span> <span class="sold-text">đã bán</span></span>
+            </div>
+            <p class="price text-[18px] font-semibold mt-4"><span class="woocommerce-Price-amount amount">@Ebook.GIABAN.ToString("00,##")<span class="woocommerce-Price-currencySymbol">₫</span></span></p>
+            <div class="woocommerce-product-details__short-description text-sm mt-4">
+                @Ebook.MOTA
+            </div>
+            <form class="cart mt-4" action="/ThanhToan/AddToCart" method="post" enctype="multipart/form-data">
+                <input name="maSach" class="none" value="@Ebook.MASACH"/>
+                <div id="shop-now" class="mt-4">
+                    <div class="quantity hidden">
+                        <input type="hidden" id="quantity_656d59c47726f" class="qty" name="quantity" value="1">
+                    </div>
+                    <button type="submit" name="add-to-cart" value="4964" class="flex items-center border border-red-500 text-white bg-red-500 py-2 px-4 rounded-none transition duration-300 hover:bg-black">
+                        <i class="gg-shopping-bag mr-2"></i>Thêm vào giỏ hàng
+                    </button>
+                </div>
+            </form>
+            <div class="product_meta" style="margin-top: 50px;">
+                <span class="border-b block mb-3"></span>
+                <span class="sku_wrapper text-sm mb-3 font-bold">Mã:</span> <span class="sku inline-block mb-2">@Ebook.MASACH</span>
+                <span class="posted_in text-sm block mb-2">
+                    <span class="font-bold">Danh mục:</span> <a href="https://ebook.comicola.com/ebook-category/tai-chinh/" rel="tag" class="text-black hover:text-red-500">@Ebook.MATL</a>
+                </span>
+                <span class="yith-wcbr-brands text-sm block mb-2">
+                    <span class="font-bold">Công ty sách:</span> <span itemprop="brand"><a href="https://ebook.comicola.com/product-brands/alphabooks/" rel="tag" class="text-black hover:text-red-500">Alphabooks</a></span>
+                </span>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <!-- Phần này là xử lý tab   -->
+    <div class="mx-auto pl-28 pr-28">
+        <!-- Tab links -->
+        <div class="flex bg-white">
+            <button class="tablinks py-3 px-3 focus:outline-none text-sm uppercase" onclick="openTab(event, 'Description')">Mô tả</button>
+            <button class="tablinks py-3 px-3 focus:outline-none text-sm uppercase" onclick="openTab(event, 'AdditionalInfo')">Thông tin bổ sung</button>
+            <button class="tablinks py-3 px-3 focus:outline-none text-sm uppercase active font-bold focus:border-t focus:border-l focus:border-r focus:border-gray-300" onclick="openTab(event, 'Reviews')">Đánh giá (0)</button>
+        </div>
+        <!-- Tab content -->
+        <!-- Phần này là tab Mô tả của sản phẩm  -->
+        <div id="Description" class="tabcontent border border-gray-300" style="display: none;">
+            <div class="mr-7 ml-7 mt-2 mb-2 text-13">
+                <p class="p-2">Hóa giải nghịch lý kinh doanh có lãi mà không thấy tiền</p>
+                <p class="p-2">Rất nhiều bạn trẻ và cả những bạn không-còn-trẻ, mới khởi nghiệp hoặc đã khởi nghiệp được coi là thành công (vì sau 3 năm mà doanh nghiệp vẫn tồn tại) luôn thắc mắc một điều là tại sao doanh nghiệp vẫn tăng trưởng, có doanh thu, nhưng cứ lỗ? Mặc dù kế hoạch kinh doanh thì rất khả thi nhưng thậm chí doanh thu càng tăng, lỗ càng nhiều.</p>
+                <p class="p-2">Đó là vì các bạn quên đi một tham số quan trọng: là gía trị thời gian của tiền tệ, bởi vậy, các bạn chưa kiểm soát được DÒNG TIỀN!</p>
+                <p class="p-2">Có thể nói dòng tiền là nguồn lực cốt lõi của doanh nghiệp, nếu dòng tiền được quản trị đúng đắn, hiệu quả, mang lại hiệu suất về kinh tế, doanh nghiệp có thể tăng trưởng và thịnh vượng. Ngược lại, nếu quản lý dòng tiền kém hiệu quả, doanh nghiệp sẽ gặp rất nhiều rủi ro.</p>
+                <p class="p-2">Tác giả của hai cuốn sách kinh doanh kinh điển Kế hoạch bí ngô và Khởi nghiệp từ khốn khó cung cấp một giải pháp quản lý dòng tiền đơn giản, phản trực quan nhằm giúp các doanh nghiệp nhỏ thoát khỏi vòng xoáy phá sản và đạt được lợi nhuận ngay lập tức.</p>
+                <p class="p-2">Sử dụng phương pháp Dòng tiền gắn liền lợi nhuận (Profit First) của Mike Michalowicz, bạn sẽ biết:</p>
+                <ul class="p-2 ml-10 list-disc">
+                    <li>Bốn nguyên tắc để đơn giản hóa quy trình kế toán;</li>
+                    <li>Một doanh nghiệp nhỏ có lợi nhuận giá trị hơn nhiều so với một doanh nghiệp lớn cùng ngành;</li>
+                    <li>Các doanh nghiệp đạt được lợi nhuận sớm và biết quản trị dòng tiền đúng cách có thể đạt được sự tăng trưởng dài hạn.</li>
+                    <li>Với hàng tá các nghiên cứu, lời khuyên cùng khiếu hài hước đặc trưng, Mike Michalowicz đã giúp các doanh nhân “lật ngược thế cờ” và đạt được doanh thu mà họ luôn mơ ước</li>
+                </ul>
+            </div>
+        </div>
+        <!-- Phần này là tab thông tin bổ sung của sản phẩm  -->
+        <div id="AdditionalInfo" class="tabcontent hidden border border-gray-300" style="display: none;">
+            <div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--additional_information panel entry-content wc-tab" id="tab-additional_information" role="tabpanel" aria-labelledby="tab-title-additional_information">
+                <table class="w-[1060px] border-collapse border border-gray-300 mt-4 mb-20 ml-10 mr-10">
+                    <tbody>
+                        <tr class="border-b border-gray-300">
+                            <th class="p-3 text-left border-r">Định dạng</th>
+                            <td class="p-3">
+                                <p>
+                                    <a href="https://ebook.comicola.com/format/epub/" class="text-black hover:text-red-500 " rel="tag">ePub</a>,
+                                    <a href="https://ebook.comicola.com/format/mobi/" class="text-black hover:text-red-500 " rel="tag">MOBI</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="border-b border-gray-300">
+                            <th class="p-3 text-left border-r bg-gray-100">Tác giả</th>
+                            <td class="p-3 bg-gray-100">
+                                <p>
+                                    <a href="https://ebook.comicola.com/writer/mike-michalowicz/" class="text-black hover:text-red-500" rel="tag">Mike Michalowicz</a>
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- Phần này là tab đánh giá của sản phẩm  -->
+        <div id="Reviews" class="tabcontent hidden border border-gray-300" style="display: block;">
+            <div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--reviews panel entry-content wc-tab" id="tab-reviews" role="tabpanel" aria-labelledby="tab-title-reviews">
+                <div id="reviews" class="widget-primary widget-reviews">
+                    <div class="comments-content">
+                        <div class="reviews-summary mt-4 ml-10 mr-10">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12 media reviews-col1">
+                                    <h5 class="text-sm font-bold">Đánh giá sản phẩm</h5>
+                                    <div class="border-b mt-3"></div>
+                                    <ul class="list-unstyled mt-3">
+                                        <li class="flex">
+                                            <div class="review-summary-total pull-left">
+                                                <div class="review-summary-result rounded-full text-white flex items-center justify-center border-2 border-red-500" style="width: 90px; height: 90px;">
+                                                    <strong class="text-red-500 text-xl">0</strong>
+                                                </div>
+                                                <div class="mt-2">
+                                                    <p class="ml-6">0 sao</p>
+                                                </div>
+                                            </div>
+                                            <div class="media-body ml-10">
+                                                <div class="review-summary-detal ml-20">
+                                                    <div class="flex items-center">
+                                                        <div class="review-label mr-2">5 Sao</div>
+                                                        <div class="progress flex-1" style="margin-left: 150px; width: 300px; height: 18px;">
+                                                            <div class="progress-bar bg-green-500 progress-bar-striped" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+                                                                100%
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="flex items-center mt-1">
+                                                        <div class="review-label mr-2">4 Sao</div>
+                                                        <div class="progress flex-1" style="margin-left: 150px; width: 300px; height: 18px;">
+                                                            <div class="progress-bar bg-green-500 progress-bar-striped" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+                                                                100%
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="flex items-center mt-1">
+                                                        <div class="review-label mr-2">3 Sao</div>
+                                                        <div class="progress flex-1" style="margin-left: 150px; width: 300px; height: 18px;">
+                                                            <div class="progress-bar bg-green-500 progress-bar-striped" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+                                                                100%
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="flex items-center mt-1">
+                                                        <div class="review-label mr-2">2 Sao</div>
+                                                        <div class="progress flex-1" style="margin-left: 150px; width: 300px; height: 18px;">
+                                                            <div class="progress-bar bg-green-500 progress-bar-striped" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+                                                                100%
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="flex items-center mt-1 ml-1">
+                                                        <div class="review-label mr-2">1 Sao</div>
+                                                        <div class="progress flex-1" style="margin-left: 150px; width: 300px; height: 18px;">
+                                                            <div class="progress-bar bg-green-500 progress-bar-striped" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+                                                                100%
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div id="comments" class="comments">
+                                        <h5 class="text-sm font-bold mt-5">2 Lượt Đánh Giá Cho Profit First – Dòng Tiền Gắn Liền Lợi Nhuận </h5>
+                                        <div class="border-b mt-2"></div>
+                                        <ul class="commentlist list-none mt-10">
+                                            <li class="review byuser comment-author-nam-nguyen even thread-even depth-1" id="li-comment-1005">
+                                                <div id="comment-1005" class="comment_container flex items-center">
+                                                    <img alt="" src="https://secure.gravatar.com/avatar/de00cb603d47615f29156188590c836d?s=60&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/de00cb603d47615f29156188590c836d?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo rounded-full" height="60" width="60" loading="lazy" decoding="async">
+                                                    <div class="comment-text ml-4">
+                                                        <div class="star-rating" role="img" aria-label="Được xếp hạng 4.5 sao">
+                                                            <span class="block text-xl text-yellow-500">★★★★☆</span>
+                                                        </div>
+                                                        <p class="meta text-gray-400  text-[13px]">
+                                                            <strong class="woocommerce-review__author text-black">Nguyễn Nam </strong>
+                                                            <em class="woocommerce-review__verified verified">(xác minh chủ tài khoản)</em> <span class="woocommerce-review__dash">–</span> <time class="woocommerce-review__published-date" datetime="2022-10-12T22:18:55+07:00">Tháng Mười 12, 2022</time>
+                                                        </p>
+                                                        <div class="description"><p class="text-[15px]">Chất lượng tốt. Cốt truyện mới mẻ, nét vẽ sáng tạo. Nhìn chung xứng đáng với số tiền bỏ ra</p></div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <div class="border-b mt-4"></div>
+                                            <li class="review byuser comment-author-k3n-ondaski odd alt thread-odd thread-alt depth-1 mt-4" id="li-comment-1077">
+                                                <div id="comment-1077" class="comment_container flex items-center">
+                                                    <img alt="" src="https://secure.gravatar.com/avatar/fa2f47c3604b67593dc7a67374bcdcdf?s=60&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/fa2f47c3604b67593dc7a67374bcdcdf?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo rounded-full" height="60" width="60" loading="lazy" decoding="async">
+                                                    <div class="comment-text ml-4">
+                                                        <div class="star-rating " role="img" aria-label="Được xếp hạng 4.5 sao ">
+                                                            <span class="block text-xl text-yellow-500">★★★★☆</span>
+                                                        </div>
+                                                        <p class="meta text-gray-400 text-[13px]">
+                                                            <strong class="woocommerce-review__author text-black">Corner Kid </strong>
+                                                            <em class="woocommerce-review__verified verified">(xác minh chủ tài khoản)</em> <span class="woocommerce-review__dash">–</span> <time class="woocommerce-review__published-date" datetime="2022-12-07T19:18:06+07:00">Tháng Mười Hai 7, 2022</time>
+                                                        </p>
+                                                        <div class="description"><p class="text-[15px]">web uy tín nhưng ít sách! và câu truyện hay</p></div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 reviews-col2 mt-20 mb-10">
+                                    <h5 class="text-[14px] font-bold">Để lại đánh giá</h5>
+                                    <div class="border-b mt-2"></div>
+                                    <div id="review_form_wrapper" class="review_form_wrapper">
+                                        <div id="review_form text-[14px]">
+                                            <div id="respond" class="comment-respond">
+                                                <h3 id="reply-title" class="comment-reply-title mt-3 mb-4">Thêm Đánh Giá <small><a rel="nofollow" id="cancel-comment-reply-link" href="/ebook/nhom-mau-o-tap-1/#respond" style="display:none;">Hủy</a></small></h3>
+                                                <form action="https://ebook.comicola.com/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate="">
+                                                    <div class="comment-form-rating mb-4">
+                                                        <div class="flex items-center">
+                                                            <label for="rating" class="block text-sm font-medium text-black mr-2">Đánh giá của bạn<span class="text-black">*</span></label>
+                                                            <p class="stars ml-5">
+                                                                <span>
+                                                                    <a class="inline-block p-2 text-gray-300 hover:text-yellow-500" href="#" data-rating="1" onclick="handleStarClick(1, event)">★</a>
+                                                                    <span class="border-r h-4"></span>
+                                                                    <a class="inline-block p-2 text-gray-300 hover:text-yellow-500" href="#" data-rating="2" onclick="handleStarClick(2, event)">★★</a>
+                                                                    <span class="border-r h-4"></span>
+                                                                    <a class="inline-block p-2 text-gray-300 hover:text-yellow-500" href="#" data-rating="3" onclick="handleStarClick(3, event)">★★★</a>
+                                                                    <span class="border-r h-4"></span>
+                                                                    <a class="inline-block p-2 text-gray-300 hover:text-yellow-500" href="#" data-rating="4" onclick="handleStarClick(4, event)">★★★★</a>
+                                                                    <span class="border-r h-4"></span>
+                                                                    <a class="inline-block p-2 text-gray-300 hover:text-yellow-500" href="#" data-rating="5" onclick="handleStarClick(5, event)">★★★★★</a>
+                                                                </span>
+                                                            </p>
+                                                        </div>
+                                                        <select name="rating" id="rating" required="" class="hidden">
+                                                            <option value="">Rate…</option>
+                                                            <option value="5">Perfect</option>
+                                                            <option value="4">Good</option>
+                                                            <option value="3">Average</option>
+                                                            <option value="2">Not that bad</option>
+                                                            <option value="1">Very poor</option>
+                                                        </select>
+                                                    </div>
+                                                    <p class="comment-form-comment form-group mb-4 relative">
+                                                        <span class="fa fa-pencil absolute px-1 py-1 mt-2 ml-1 text-gray-500" aria-hidden="true"></span>
+                                                        <textarea id="comment" placeholder="  Bình luận..." class="form-control w-96 md:w-570 px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500 pl-10" name="comment" cols="45" rows="8" aria-required="true"></textarea>
+                                                    </p>
+
+                                                    <p class="comment-form-author form-group mb-4 relative">
+                                                        <span class="fa fa-user absolute px-1 py-1 mt-2 ml-1 text-gray-500" aria-hidden="true"></span>
+                                                        <input id="author" class="form-control w-96 md:w-570 px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500 pl-10" placeholder="  Tên" name="author" type="text" value="" size="30" aria-required="true">
+                                                    </p>
+
+                                                    <p class="comment-form-email form-group mb-4 relative">
+                                                        <span class="fa fa-envelope absolute px-1 py-1 mt-2 ml-1text-gray-500" aria-hidden="true"></span>
+                                                        <input id="email" placeholder="  Email" class="form-control w-96 md:w-570 px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500 pl-10" name="email" type="text" value="" size="30" aria-required="true">
+                                                    </p>
+                                                    <p class="comment-form-cookies-consent mb-4 flex items-center">
+                                                        <input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" class="mr-2">
+                                                        <label for="wp-comment-cookies-consent" class="text-sm text-gray-700 font-bold">Lưu tên của tôi, email, và trang web trong trình duyệt này cho lần bình luận kế tiếp của tôi.</label>
+                                                    </p>
+
+                                                    <p class="form-submit flex items-center">
+                                                        <input name="submit" type="submit" id="submit" class="submit bg-red-500 hover:bg-black text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline-blue mr-4 h-[2.5rem]" style="width: 95px;" value="GỬI">
+                                                        <input type="hidden" name="comment_post_ID" value="5000" id="comment_post_ID">
+                                                        <input type="hidden" name="comment_parent" id="comment_parent" value="0">
+                                                    </p>
+                                                </form>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<script>
+    function handleStarClick(rating, event) {
+        event.preventDefault(); // Ngăn chặn hành vi mặc định của thẻ a
+
+        // Set the value of the select element
+        document.getElementById('rating').value = rating;
+
+        // Unselect all stars
+        const stars = document.querySelectorAll('.stars a');
+        stars.forEach(star => {
+            star.classList.remove('text-yellow-500');
+        });
+
+        // Highlight the clicked star
+        const clickedStar = event.target;
+        clickedStar.classList.add('text-yellow-500');
+    }
+</script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Automatically show content for the "Mô tả" tab and add styles
+        var descriptionTabButton = document.querySelector('.tablinks.active');
+        descriptionTabButton.classList.add('focus:border-t', 'focus:border-l', 'focus:border-r', 'focus:border-gray-300', 'font-bold');
+        openTab({ currentTarget: descriptionTabButton }, 'Description');
+    });
+
+    function openTab(event, tabName) {
+        // Get all elements with class="tabcontent" and hide them
+        var tabcontent = document.getElementsByClassName('tabcontent');
+        for (var i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = 'none';
+        }
+
+        // Get all elements with class="tablinks" and remove the class "active"
+        var tablinks = document.getElementsByClassName('tablinks');
+        for (var i = 0; i < tablinks.length; i++) {
+            tablinks[i].classList.remove('active', 'font-bold');
+            // Remove focus styles for all tabs
+            tablinks[i].classList.remove('focus:border-t', 'focus:border-l', 'focus:border-r', 'focus:border-gray-300');
+        }
+
+        // Show the current tab, and add an "active" class to the button that opened the tab
+        document.getElementById(tabName).style.display = 'block';
+        event.currentTarget.classList.add('active', 'font-bold');
+        // Add focus styles for the active tab
+        event.currentTarget.classList.add('focus:border-t', 'focus:border-l', 'focus:border-r', 'focus:border-gray-300');
+    }
+</script>
+
+<script>
+    $(document).ready(function () {
+        // Initialize the slider
+        $('.woocommerce-product-gallery__wrapper').slick({
+            // Your Slick slider options go here
+            dots: false,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 1,
+            adaptiveHeight: true
+        });
+
+        // Show the default image
+        showImage(0);
+
+        // Handle click event on thumbnail
+        $('.slick-slide').on('click', function () {
+            var index = $(this).data('slick-index');
+            showImage(index);
+        });
+
+        // Function to show image based on index
+        function showImage(index) {
+            $('.woocommerce-product-gallery__wrapper').slick('slickGoTo', index);
+        }
+    });
+</script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/owl.carousel.min.js"></script>
