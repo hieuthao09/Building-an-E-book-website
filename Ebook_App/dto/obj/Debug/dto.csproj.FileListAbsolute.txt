@@ -1,0 +1,12 @@
+D:\HKVII\PTUDTM\DoAn\Code\App\Ebook_PTUDTM\dto\bin\Debug\dto.dll
+D:\HKVII\PTUDTM\DoAn\Code\App\Ebook_PTUDTM\dto\bin\Debug\dto.pdb
+D:\HKVII\PTUDTM\DoAn\Code\App\Ebook_PTUDTM\dto\obj\Debug\dto.csproj.AssemblyReference.cache
+D:\HKVII\PTUDTM\DoAn\Code\App\Ebook_PTUDTM\dto\obj\Debug\dto.csproj.CoreCompileInputs.cache
+D:\HKVII\PTUDTM\DoAn\Code\App\Ebook_PTUDTM\dto\obj\Debug\dto.dll
+D:\HKVII\PTUDTM\DoAn\Code\App\Ebook_PTUDTM\dto\obj\Debug\dto.pdb
+D:\HKVII\PTUDTM\DoAn\Code\App\Ebook_PTUDTM\dto\bin\Debug\DevExpress.Sparkline.v22.2.Core.dll
+D:\HKVII\PTUDTM\DoAn\Code\App\Ebook_PTUDTM\dto\bin\Debug\DevExpress.Data.v22.2.dll
+D:\HKVII\PTUDTM\DoAn\Code\App\Ebook_PTUDTM\dto\bin\Debug\DevExpress.Drawing.v22.2.dll
+D:\HKVII\PTUDTM\DoAn\Code\App\Ebook_PTUDTM\dto\bin\Debug\DevExpress.Sparkline.v22.2.Core.xml
+D:\HKVII\PTUDTM\DoAn\Code\App\Ebook_PTUDTM\dto\bin\Debug\DevExpress.Data.v22.2.xml
+D:\HKVII\PTUDTM\DoAn\Code\App\Ebook_PTUDTM\dto\obj\Debug\dto.csproj.CopyComplete

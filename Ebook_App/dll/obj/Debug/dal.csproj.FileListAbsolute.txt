@@ -1,0 +1,15 @@
+D:\HKVII\PTUDTM\DoAn\Code\App\Ebook_PTUDTM\dll\obj\Debug\dal.csproj.AssemblyReference.cache
+D:\HKVII\PTUDTM\DoAn\Code\App\Ebook_PTUDTM\dll\obj\Debug\dal.csproj.CoreCompileInputs.cache
+D:\HKVII\PTUDTM\DoAn\Code\App\Ebook_PTUDTM\dll\bin\Debug\dll.dll.config
+D:\HKVII\PTUDTM\DoAn\Code\App\Ebook_PTUDTM\dll\bin\Debug\dll.dll
+D:\HKVII\PTUDTM\DoAn\Code\App\Ebook_PTUDTM\dll\bin\Debug\dll.pdb
+D:\HKVII\PTUDTM\DoAn\Code\App\Ebook_PTUDTM\dll\bin\Debug\dto.dll
+D:\HKVII\PTUDTM\DoAn\Code\App\Ebook_PTUDTM\dll\bin\Debug\dto.pdb
+D:\HKVII\PTUDTM\DoAn\Code\App\Ebook_PTUDTM\dll\obj\Debug\dal.csproj.CopyComplete
+D:\HKVII\PTUDTM\DoAn\Code\App\Ebook_PTUDTM\dll\obj\Debug\dll.dll
+D:\HKVII\PTUDTM\DoAn\Code\App\Ebook_PTUDTM\dll\obj\Debug\dll.pdb
+D:\HKVII\PTUDTM\DoAn\Code\App\Ebook_PTUDTM\dll\bin\Debug\DevExpress.Sparkline.v22.2.Core.dll
+D:\HKVII\PTUDTM\DoAn\Code\App\Ebook_PTUDTM\dll\bin\Debug\DevExpress.Data.v22.2.dll
+D:\HKVII\PTUDTM\DoAn\Code\App\Ebook_PTUDTM\dll\bin\Debug\DevExpress.Drawing.v22.2.dll
+D:\HKVII\PTUDTM\DoAn\Code\App\Ebook_PTUDTM\dll\bin\Debug\DevExpress.Sparkline.v22.2.Core.xml
+D:\HKVII\PTUDTM\DoAn\Code\App\Ebook_PTUDTM\dll\bin\Debug\DevExpress.Data.v22.2.xml

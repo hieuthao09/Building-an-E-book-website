@@ -1,0 +1,7 @@
+D:\HKVII\PTUDTM\DoAn\Code\App\Ebook_PTUDTM\dll\bin\Debug\dll.dll
+D:\HKVII\PTUDTM\DoAn\Code\App\Ebook_PTUDTM\dll\bin\Debug\dll.pdb
+D:\HKVII\PTUDTM\DoAn\Code\App\Ebook_PTUDTM\dll\obj\Debug\dll.csproj.AssemblyReference.cache
+D:\HKVII\PTUDTM\DoAn\Code\App\Ebook_PTUDTM\dll\obj\Debug\dll.csproj.CoreCompileInputs.cache
+D:\HKVII\PTUDTM\DoAn\Code\App\Ebook_PTUDTM\dll\obj\Debug\dll.dll
+D:\HKVII\PTUDTM\DoAn\Code\App\Ebook_PTUDTM\dll\obj\Debug\dll.pdb
+D:\HKVII\PTUDTM\DoAn\Code\App\Ebook_PTUDTM\dll\bin\Debug\dll.dll.config
